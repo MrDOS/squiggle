@@ -1,0 +1,22 @@
+{
+    "name": "squiggle",
+    "description": "Outputs a '90s squiggle pattern with random colours.",
+    "version": "1.0.0",
+    "repository": "ssh://git@github.com/MrDOS/squiggle.git",
+    "author": "Samuel Coleman <samuel@seenet.ca>",
+    "license": "MIT",
+    "private": true,
+    "type": "module",
+    "main": "src/index.mjs",
+    "scripts": {
+        "lint": "eslint src/",
+        "test": "NODE_OPTIONS=--experimental-vm-modules jest"
+    },
+    "devDependencies": {
+        "eslint": "^8.15.0",
+        "eslint-plugin-jest": "^26.1.5",
+        "eslint-plugin-node": "^11.1.0",
+        "jest": "^28.1.0",
+        "prettier": "^1.19.1"
+    }
+}

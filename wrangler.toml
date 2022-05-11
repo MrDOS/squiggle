@@ -1,0 +1,13 @@
+name = "squiggle"
+type = "javascript"
+
+account_id = ""
+workers_dev = true
+route = ""
+zone_id = ""
+compatibility_date = "2022-05-11"
+
+[build.upload]
+format = "modules"
+dir = "src"
+main = "./index.mjs"

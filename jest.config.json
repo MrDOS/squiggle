@@ -1,0 +1,4 @@
+{
+    "testMatch": ["**/*.test.?(m)js"],
+    "testEnvironment": "node"
+}
